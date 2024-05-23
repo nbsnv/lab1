@@ -1,0 +1,15 @@
+<svg width="32.173828" height="20.000000" viewBox="0 0 32.1738 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip176_13">
+			<rect id="svg" width="32.174072" height="20.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip176_13)">
+		<ellipse id="Ellipse 2011" cx="22.253906" cy="10.000000" rx="9.920280" ry="9.999991" fill="#080808" fill-opacity="1.000000"/>
+		<ellipse id="Ellipse 2010" cx="9.920410" cy="10.000000" rx="9.920280" ry="9.999991" fill="#080808" fill-opacity="1.000000"/>
+		<path id="Intersect (Stroke)" d="M16.0869 18.873L15.5864 18.4727C13.1152 16.4932 11.5288 13.4351 11.5288 10.0044C11.5288 6.57275 13.1152 3.51465 15.5864 1.53564L16.0869 1.13477L16.5869 1.53564C19.0581 3.51465 20.6445 6.57275 20.6445 10.0044C20.6445 13.4351 19.0581 16.4932 16.5869 18.4727L16.0869 18.873ZM16.0869 17.8374C13.7998 16.0059 12.333 13.1772 12.333 10.0044C12.333 6.83057 13.7998 4.00195 16.0869 2.17041C18.374 4.00195 19.8403 6.83057 19.8403 10.0044C19.8403 13.1772 18.374 16.0059 16.0869 17.8374Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

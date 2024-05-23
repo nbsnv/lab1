@@ -1,0 +1,380 @@
+/*СБРОС СТАНДАРТНЫХ СТИЛЕЙ*/
+body{
+  margin: 0; /*Обнуление внешних отступов*/
+  padding: 0; /*Обнуление внутренних отступов*/
+  font-family: "Sb sans text"; /*Новый шрифт по умолчанию*/
+  font-size: 15px; /*Размер шрифта по умолчанию*/
+  color: rgb(51, 63, 72); /*Новый цвет текста по умолчанию*/
+}
+
+a{
+  color: inherit; /*Ссылки не становятся синими по умолчанию*/
+  text-decoration: none; /*Ссылка не подчеркивается по умолчанию*/
+}
+
+ul{
+  list-style-type: none; /*Списки без точечек*/
+  padding-inline-start: 0px;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  text-align: left;
+}
+
+/**************************************************************************/
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/*HEADER*/
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1224px;
+  margin: 28px 0px 25px 0px;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo__icon{
+  width: 21px;
+  height: 21px;
+  background-image: url(./images/logo.svg);
+  background-size: 21px 21px;
+}
+
+.logo__text{
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 6px;
+}
+
+.logo__text > span{
+  color: rgb(0, 110, 255);
+}
+
+.nav{
+  display: flex;
+}
+
+.nav__list{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+/*MAIN*/
+
+.main{
+  margin: 39px 0px 112px 0px;
+}
+
+.main__container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 128px;
+}
+
+.path__link{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 64px;
+}
+
+.path__arrow{
+  width: 27px;
+  height: 10px;
+  background-image: url(./images/arrow.svg);
+  background-size: 27px 10px;
+}
+.path__text{
+  font-weight: 400;
+}
+
+.aside{
+  width: 288px;
+  padding-inline-start: 8px;
+}
+
+.aside__main-item{
+  width: 246px;
+  font-size: 17px;
+  margin-bottom: 16px;
+  margin-left: 22px;
+  color: rgb(151, 151, 151);
+}
+
+.selected{
+  color:rgb(51, 63, 72);
+}
+
+.aside__list{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  gap: 8px;
+  width: 246px;
+  padding-left: 0px;
+  margin-left: 36px;
+  list-style-type: decimal;
+}
+
+.lessons{
+  width: 808px;
+}
+
+.lesson{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.lesson{
+  border-bottom: 1px solid rgb(151, 151, 151, 0.3);
+}
+
+.lesson__header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 806px;
+}
+
+.lesson__theme{
+  color: rgb(0, 110, 255);
+}
+
+.lesson__theme > span{
+  color:rgb(51, 63, 72);
+}
+
+.lesson__name{
+  font-family: "Sb sans interface";
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.lesson__list{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style-type: decimal;
+  font-size: 17px;
+  padding-inline-start: 16px;
+  margin-bottom: 40px;
+}
+
+.lesson__image{
+  margin-left: -29px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.image1{
+  width: 704px;
+  height: 542px;
+  margin-top: 64px;
+}
+
+.image2{
+  width: 704px;
+  height: 520px;
+}
+
+
+.image3{
+  width: 703px;
+  height: 401px;
+}
+
+.image4, .image5{
+  width: 704px;
+  height: 361px;
+}
+
+.lesson__item-text > a{
+  color: rgb(0, 110, 255);
+}
+
+.lesson__item-suptext{
+  margin-left: -29px;
+  width: 780px;
+  margin-top: 40px;
+}
+
+.image6{
+  width: 704px;
+  height: 238px;
+}
+
+.image7{
+  width: 390px;
+  height: 421px;
+}
+
+
+.lesson__item-suptext > a{
+  color: rgb(0, 110, 255);
+}
+
+.lessons__nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lessons__nav{
+  margin-top: 40px;
+}
+.previous, .next{
+  width: 372px;
+}
+.lessons__nav-title{
+  font-size: 17px;
+  font-weight: 600;
+}
+.lessons__nav-link{
+  margin-top: 4px;
+  color: rgb(0, 110, 255) !important;
+}
+
+.footer{
+  width: 100%;
+  background-color: rgb(243, 244, 245);
+}
+
+.footer__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 69px 30px 30px;
+}
+
+.footer__list{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 156px;
+  gap: 15px 136px;
+  margin-bottom: 104px;
+}
+
+.shop{
+  margin-bottom: 5px;
+}
+
+.info__list{
+  display: flex;
+  flex-direction: row;
+  gap: 16px
+}
+
+.footer__rigth{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 391px;
+}
+
+.systems__list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.mastercard{
+  width: 32px;
+  height: 20px;
+  opacity: .3;
+  background-image: url(./images/mastercard.svg);
+  background-size: 32px 20px;
+}
+
+.visa{
+  width: 45px;
+  height: 15px;
+  opacity: .3;
+  background-image: url(./images/visa.svg);
+  background-size: 45px 15px;
+}
+
+.mir{
+  width: 50px;
+  height: 15px;
+  opacity: .3;
+  background-image: url(./images/mir.svg);
+  background-size: 50px 15px;
+}
+
+.jcb{
+  width: 26px;
+  height: 20px;
+  opacity: .3;
+  background-image: url(./images/jcb.svg);
+  background-size: 26px 20px;
+}
+
+.jsb{
+
+}
+/*ПОДКЛЮЧЕНИЕ ШРИФТОВ*/
+
+.number{
+  font-size: 17px;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Sb sans text"; 
+  src: url("./fonts/SB Sans Text.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "Sb sans text"; 
+  src: url("./fonts/SB Sans Text Semibold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: 600; 
+}
+
+@font-face {
+  font-family: "Sb sans text"; 
+  src: url("./fonts/SB Sans Text Medium.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: 500; 
+}
+
+@font-face {
+  font-family: "Sb sans text"; 
+  src: url("./fonts/SB Sans Text Bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: 700; 
+}
+
+@font-face {
+  font-family: "Sb sans interface"; 
+  src: url("./fonts/SB\ Sans\ Interface\ Light.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: 300; 
+} 
